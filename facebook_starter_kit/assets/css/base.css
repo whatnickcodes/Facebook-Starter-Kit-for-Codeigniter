@@ -1,0 +1,83 @@
+/*HTML Elements, Default and Core Styling*/
+html {overflow-y: scroll;}
+
+::selection {
+	background: #F8F7C9;
+	color: #CB9240;
+	text-shadow: none;
+}
+
+@-webkit-keyframes bambambam {
+	0% {-webkit-transform: scale(1);}	
+	10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);}
+	100% {-webkit-transform: scale(1) rotate(0);}
+}
+
+@-moz-keyframes bambambam {
+	0% {-moz-transform: scale(1);}	
+	10%, 20% {-moz-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-moz-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-moz-transform: scale(1.1) rotate(-3deg);}
+	100% {-moz-transform: scale(1) rotate(0);}
+}
+
+@-ms-keyframes bambambam {
+	0% {-ms-transform: scale(1);}	
+	10%, 20% {-ms-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-ms-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-ms-transform: scale(1.1) rotate(-3deg);}
+	100% {-ms-transform: scale(1) rotate(0);}
+}
+
+@-o-keyframes bambambam {
+	0% {-o-transform: scale(1);}	
+	10%, 20% {-o-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-o-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-o-transform: scale(1.1) rotate(-3deg);}
+	100% {-o-transform: scale(1) rotate(0);}
+}
+
+@keyframes bambambam {
+	0% {transform: scale(1);}	
+	10%, 20% {transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);}
+	100% {transform: scale(1) rotate(0);}
+}
+
+.bambambam {
+	-webkit-animation-name: bambambam;
+	-moz-animation-name: bambambam;
+	-ms-animation-name: bambambam;
+	-o-animation-name: bambambam;
+	animation-name: bambambam;
+}
+
+.clear { clear: both; }
+.hidden { display: none; }
+
+a { color: #EE799F; text-decoration: none; }
+a:hover { border-bottom: 1px dotted #EE799F; }
+
+body {
+	color: #23201A;
+	background: #231f20;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+p { margin: 8px 0; }
+
+h1 { font-size: 3em; margin: 10px; }
+h2 { font-size: 2em; margin: 5px; }
+h3 { font-size: 1.5em; }
+
+header, footer {
+	width: 960px;
+	margin: 0 auto;
+	background: #333;
+	color: #869BF0;
+	padding: 50px 0;
+	text-align: center;
+}

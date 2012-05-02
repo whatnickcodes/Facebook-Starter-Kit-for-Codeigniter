@@ -1,0 +1,76 @@
+@import url('reset.css');
+@import url('base.css');
+
+#container { width: 100%; }
+
+#content {
+	position: relative;
+	width: 920px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	padding: 50px 20px;
+	color: #444;
+}
+
+.message, .error_message, .success_message {
+	padding: 12px;
+	color: #514721;
+	border: solid 1px #DDD;
+	background: #FFF6BF;
+	text-align: center;
+	font-weight: bold;
+}
+
+#connect_button {
+	display: block;
+	width: 455px;
+	height: 85px;
+	background: url(../images/fb_connect_button.png) no-repeat 0 0;
+	margin: 20px auto 100px;
+	text-indent: -9999px;
+	border: none;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: 1s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+
+
+
+
+#connect_button:hover { 
+	background-position: 0 -85px;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: 1s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+	
+}
+#connect_button:active { background-position: 0 -170px; }
+
+#session_data, #examples, #me_page, .logout_box {
+	width: 600px;
+	margin: 30px auto;
+	border-top: 1px solid #869BF0;
+	padding: 20px 0;
+	word-wrap: break-word;
+	-moz-word-wrap: break-word;
+	-webkit-word-wrap: break-word;
+	-o-word-wrap: break-word;
+}
