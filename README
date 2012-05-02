@@ -35,6 +35,6 @@ Normally, you call the facebook API by creating an object and doing $facebook->"
 
 You'll notice I tied the Facebook libary to the model just for the sake of keeping straight forward MVC convention. This build only implements the PHP SDK.
 
-There are example functions in the Model to demonstrate some good practice for using cURL to call to the Facebook Graph API. The way the functions are setup are meant to return the JSON error information in case you need would like to do logging or additional error handling.
+There are example functions in the Model to demonstrate some good practice for using cURL to call to the Facebook Graph API. The way the functions are setup are meant to provide error handling and return any JSON error information you would like to do additional logging or error handling.
 
 Please feel free to contact me with suggestions, improvements, or questions! Thanks guys, I hope this helps at least one person out there!
